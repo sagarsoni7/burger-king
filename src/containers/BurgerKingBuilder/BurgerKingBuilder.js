@@ -5,10 +5,10 @@ import BuildControls from "../../components/Burger/Build Controls/BuildControls"
 
 
 const INGREDIENT_PRICES={
-    salad: 0.5,
-    cheese: 0.4,
-    meat: 1.3,
-    bacon: 0.7
+    chowmein: 20,
+    cheese: 40,
+    mayonnaise: 60,
+    tikki: 100
 };
 
 
@@ -16,12 +16,12 @@ class BurgerKingBuilder extends Component{
 
     state={
         ingredients:{
-            salad:0,
-            bacon: 0,
+            chowmein:0,
             cheese: 0,
-            meat: 0
+            mayonnaise: 0,
+            tikki: 0
         },
-        totalPrice: 4
+        totalPrice: 30
     }
 
     addIngredientHandler=(type)=>{
@@ -78,6 +78,7 @@ class BurgerKingBuilder extends Component{
             ingredientAdded={this.addIngredientHandler}
             ingredientRemoved={this.removeIngredientHandler}
             disabled={disabledInfo}
+            price={this.state.totalPrice}
             />
             </Aux>
         )

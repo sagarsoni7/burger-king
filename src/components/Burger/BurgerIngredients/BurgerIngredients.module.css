@@ -81,7 +81,7 @@
 }
 
 
-.Meat {
+.Chowmein {
   width: 80%;
   height: 8%;
   background: linear-gradient(#7f3608, #702e05);
@@ -97,7 +97,7 @@
   border-radius: 20px;
 }
 
-.Salad {
+.Mayonnaise {
   width: 85%;
   height: 7%;
   margin: 2% auto;
@@ -105,7 +105,7 @@
   border-radius: 20px;
 }
 
-.Bacon {
+.Tikki {
   width: 80%;
   height: 3%;
   background: linear-gradient(#bf3813, #c45e38);
