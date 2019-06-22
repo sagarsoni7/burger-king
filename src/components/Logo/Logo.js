@@ -5,10 +5,10 @@ import classes from "./Logo.module.css";
 
 
 const Logo=(props)=>(
-    <div className={classes.Logo}> 
-    <img style={{margin: "3px"}}  src={logoBurger} alt="Burger King"/>  
-    <img style={{margin: "3px"}} src={logoImage} alt="Burger King"/>
-    <img style={{margin: "3px"}}  src={logoBurger} alt="Burger King"/> 
+    <div className={classes.Logo} style={{height: props.height}}> 
+    <img src={logoBurger} style={{height: props.heightM}} alt="Burger King"/>  
+    <img src={logoImage} style={{height: props.heightM}} alt="Burger King"/>
+    <img src={logoBurger} style={{height: props.heightM}} alt="Burger King"/> 
     </div>
     
 );
