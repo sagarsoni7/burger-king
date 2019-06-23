@@ -1,12 +1,12 @@
 .SideDrawer{
     position: fixed;
     width: 280px;
-    max-width: 70%;
+    max-width: 60%;
     height: 100%;
     left:0;
     top:0;
     z-index: 200;
-    background-color: blue;
+    background-color: #253F51;
     padding: 32px 16px;
     box-sizing: border-box;
     transition: transform 0.3s ease-out;
@@ -24,10 +24,4 @@
 
 .Close{
     transform: translateX(-100%);
-}
-.Logo{
-    height:"40%";
-}
-.Logo img{
-    height: "10%";
 }

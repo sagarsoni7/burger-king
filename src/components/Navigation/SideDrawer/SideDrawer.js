@@ -3,16 +3,24 @@ import React from "react";
 import Logo from "../../Logo/Logo";
 import NavigationItems from "../NavigationItems/NavigationItems";
 import classes from "./SideDrawer.module.css";
+import BackDrop from "../../UI/Backdrop/Backdrop";
+import Aux from "../../../hoc/Auxi/Auxi";
 
 const sideDrawer=(props)=>{
-    // .. 
+    let attachedClasses=[classes.SideDrawer, classes.Close];
+    if(props.open){
+        attachedClasses=[classes.SideDrawer, classes.Open]
+    }
     return (
-        <div className={classes.SideDrawer}>
-            <Logo height="40%" heightM="10%" />
+        <Aux>
+        <BackDrop show={props.open} clicked={props.closed} />
+        <div className={attachedClasses.join(" ")}>
+            <Logo logoType="logoMcDonalds" height="25%" heightM="11%" />
             <nav>
             <NavigationItems/>
             </nav>
         </div>
+        </Aux>
     );
 };
 
