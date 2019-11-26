@@ -12,21 +12,19 @@
 ![forthebadge](http://forthebadge.com/images/badges/powered-by-responsibility.svg)
 
 <div align="center">
-  <a href="https://react-white-burger.firebaseapp.com/"><img src="img/launch.png" /></a>
+  <a href="https://react-white-burger.firebaseapp.com/"><p>VIEW DEMO</p></a>
 </div>
 
 ## Description
 <div align="center">
-  Lorem ipsum temp short thingy
+  Screenshots
   <br/>
   <br/>
-  <img width="200" height="107" src="img/screens/img1.png" />
-  <img width="200" height="107" src="img/screens/img3.png" />
-  <img width="200" height="107" src="img/screens/img2.png" />
+  <img width="500" height="auto" src="https://i.ibb.co/fdhPGJf/screenshot.jpg" />
 </div>
 
-## Story
-Lorem ipsum temp full thingy
+## Features
+Firebase db, Ajax, Routing, Form Validation, Redux, Basic Sagas, Webpack 4
                             
 ### Local Usage
 ```
